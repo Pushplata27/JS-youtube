@@ -24,3 +24,4 @@ console.log(undefined < 0);  //F
 
 
 // console.log("2" === 2);
+
