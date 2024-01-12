@@ -37,3 +37,18 @@ const arr2Ans = arr2
   });
 
 console.log(arr2Ans);
+
+
+// Reduce
+
+// Sum of all numbers in array
+
+let arr3 = [1, 3, 5, 7, 8];
+
+const sum = arr3.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+})
+
+console.log(sum)
+
+
